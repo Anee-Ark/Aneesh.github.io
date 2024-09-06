@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aneesh - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Aneesh Koka" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aneesh Koka">Aneesh Koka</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="koka.a@northeastern.edu" class="contact-link">koka.a@northeastern.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+17573866334" class="contact-link">+1 (757) 386-6334</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Boston, MA, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/aneesh-k-452552215/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/Anee-Ark" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Profile</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            My name is Aneesh Koka, and I am currently pursuing my Master’s degree in Information Systems at Northeastern University. I am actively seeking full-time and internship opportunities in data science and analytics.
+          </p>
+
+          <p>
+            During my graduate studies, I’ve gained hands-on experience working on data-driven projects, including designing and implementing data pipelines, anomaly detection systems, and AI-driven healthcare applications.
+            My proficiency in technologies like PyTorch, TensorFlow, Airflow, and Snowflake has been demonstrated through various projects such as automating data ingestion and transformation using SQLAlchemy and Apache Airflow.
+          </p>
+          <p>
+            In my role as a Data Science Practitioner at Accenture, I was deeply involved in managing large-scale data integration and warehousing, where I handled and streamlined over 1TB of data every day. 
+            One of my key contributions was designing and building Customer Data Platforms (CDP) from the ground up using AWS Redshift and dbt. This effort significantly enhanced the ability to generate meaningful marketing insights, 
+            allowing teams to make more informed, data-driven decisions. Additionally, I focused on optimizing data pipelines using Apache Spark, ensuring faster processing and greater efficiency across the board.
+            My work didn’t stop at backend improvements—I also developed and deployed over 20 interactive Tableau dashboards that provided comprehensive visibility into system performance, empowering leadership to track key metrics in real time. 
+            Through these experiences, I sharpened my project management skills, particularly in agile environments, and demonstrated my ability to deliver scalable, high-quality data solutions in demanding, fast-paced settings.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pipeline Building</h4>
+
+                <p class="service-item-text">
+                  Designing and developing scalable data pipelines
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-end Development</h4>
+
+                <p class="service-item-text">
+                  Building robust backend architectures, optimizing data flow and integrating databases with cloud services to support seamless frontend interactions
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Performance Optimization</h4>
+
+                <p class="service-item-text">
+                  Improving data processing efficiency and system performance through the optimization of complex data engineering workflows.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Integration</h4>
+
+                <p class="service-item-text">
+                  Integrating data platforms with cloud infrastructure, ensuring scalability, reliability, 
+                  and enhanced system functionality for real-time data analysis and reporting.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+                <!--
+          - Skills
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Skills</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/javascript.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/angular.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/react.webp" alt="client logo">
+              </a>
+            </li>
+
+            
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Java.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/spring.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/mongodb.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Sql.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/MySQL.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/docker.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/jenkins.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+<!-- 
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROFILE
+      -->
+
+          <article class="resume" data-page="profile">
+
+        <header>
+          <h2 class="h2 article-title">Profile</h2>
+        </header>
+
+        <div class="download-btn">
+          <button id="downloadButton" onclick="downloadFile()">Download Resume</button>
+        </div>
+       
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master of Science in Information Systems - Northeastern University</h4>
+
+              <span>2023 — Expected 2025</span>
+
+              <p class="timeline-text">
+                Coursework: Application Engineering & Development, Big Data Systems and Intelligence Analytics, 
+                Data Science Engineering Methods, Parallel Machine Learning and AI, Program Structure and Algorithms.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Tech in Computer Science and Engineering - Gitam University</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Relevant Coursework: Data Structures & Algorithms, Python, Operating Systems, Cloud Computing
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Program Assistent ( Part - time )</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+              <ul class="work-experience-list">
+                <li class="work-experience">
+                  Maintained network connectivity, manage shared storage, and handle research server hosting.
+                </li>
+                <li class="work-experience">
+                  worked closely with staff and technology partners to keep the College of Engineering running on code.
+                </li>
+              </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+            
+              <h4 class="h4 timeline-item-title">Data Science Practitioner - Accenture</h4>
+            
+              <span>2022 — 2023</span>
+    
+              <br>
+              <p class="timeline-text">
+                <h4 class="h4 timeline-item-title">2. Talent Point Platform </h4>
+
+                <br>
+              <ul class="work-experience-list">
+              
+                <li class="work-experience"> Built Customer Data Platforms (CDP) and marketing data warehouses from scratch using AWS Redshift and dbt,
+                  resulting in a 30% increase in marketing campaign effectiveness through enhanced customer insights. </li>
+                <li class="work-experience"> Developed robust data engineering pipelines using Apache Spark, on-premise solutions, 
+                  and AWS services (S3, Glue),
+                  reducing data processing time by 40% and improving system scalability to handle up to 5 million records per day.</li>
+                <li class="work-experience">  </li>
+                <li class="work-experience"> Developed and deployed over 20 interactive Tableau dashboards, delivering real-time insights and improving 
+                  decision-making for system performance monitoring.</li>
+                <li class="work-experience">Collaborated in over 15 Agile development sprints, consistently meeting project milestones
+                  and deadlines</li>
+              </ul>
+              </p>
+            
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Engineer Intern</h4>
+
+              <span>May, 2022 — June, 2022</span>
+
+              <p class="timeline-text">
+              <ul class="work-experience-list">
+                <li class="work-experience">
+                  Collaborated with senior developers in the development data models aligning with Process Builder and Flow Builder needs
+                </li>
+                <li class="work-experience">
+                  Led data transformation initiatives using Salesforce DTL, resulting in a 12% improvement in data suitability for
+                  automation workflows
+                </li>
+                <li class="work-experience">
+                  Deployed scalable ML pipelines using Docker containers, orchestrated with Kubernetes, facilitating consistent
+                  development and production environments.      
+                </li>
+                <br>
+                </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+<!-- 
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div> -->
+
+          
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
