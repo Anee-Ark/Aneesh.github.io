@@ -160,7 +160,7 @@ function downloadFile() {
   let downloadLink = document.createElement("a");
   
   // Set the file URL
-  downloadLink.href = "./assets/Yashwanth-Resume.pdf"; // Replace "path_to_your_file.pdf" with the actual file URL
+  downloadLink.href = "https://github.com/Anee-Ark/Aneesh.github.io/blob/main/assets/Updated_RESUME_Aneesh_Koka.pdf"; // Replace "path_to_your_file.pdf" with the actual file URL
   
   // Set the download attribute with the desired file name
   downloadLink.download = "resume.pdf"; // Replace "example_file.pdf" with the desired file name
